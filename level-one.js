@@ -10,7 +10,7 @@ const textWin = document.querySelector('.--xl-large')
 const linkWin = document.querySelector('.level-winner > p')
 const lv2 = document.querySelector('.level-winner > p > a')
 
-console.log(lv2)
+console.log(lv3)
 
 jsball.addEventListener('click', function() {
     let num = 0;
@@ -23,7 +23,7 @@ jsball.addEventListener('click', function() {
         winner.style.backgroundColor = 'white';
         textWin.style.color = 'black';
         linkWin.style.color = 'black';
-        lv2.style.color = 'blue';
+        lv3.style.color = 'blue';
     }
 })
 
