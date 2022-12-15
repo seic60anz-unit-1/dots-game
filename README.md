@@ -43,8 +43,3 @@ Dots is an interactive game with up to 3 levels. In each level, the user has to 
 - Level 3 also has 3 moving balls but of different sizes! Each ball is worth a different number of points. The number of points the user should get for each ball is saved inside of a `data-increment` attribute on the ball HTML elements. You can access the data attribute of an element from the event object by looking at the event target's `dataset` property. Read the [MDN docs on dataset here](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset).
 - When the user clicks on a ball, increment their score based on how many points that ball is worth until they reach 100.
 - When the user reaches 100 points, show the `.level-winner` overlay.
-
----
-
-### Hungry For More?
-- Do advanced reading on [event delegation](https://javascript.info/event-delegation) and refactor your level 2 and level 3 code to only have **one** event listener set on a parent or common ancestor.
